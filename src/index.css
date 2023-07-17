@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --text-primary: #3a3541;
+  --text-secondary: #fefefe;
+  --btn-primary: #fefefe;
+  --text-solid-gray: #8e8e8e;
+  --light-text-primary: rgba(58, 53, 65, 0.87);
+  --light-text-secondary: rgba(58, 53, 65, 0.6);
+  --light-primary-main: #9155fd;
+  --table-td-hr-primary: #d9d9d9;
+  --table-tr-hr-primary: #b0a6a6;
+}
+
+.card-custom-title .ant-card-head-title {
+  color: var(--text-primary);
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse; /* To remove spacing between table cells */
+  width: 100%;
+}
+
+/* Base styles for the table cells */
+td {
+  padding: 10px;
+  border-bottom: 2px dashed var(--table-td-hr-primary);
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid var(--table-tr-hr-primary);
+  padding: 20px !important;
+  height: 2px;
+  text-align: center;
+}

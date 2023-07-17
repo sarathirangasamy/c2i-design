@@ -1,0 +1,138 @@
+.dashboard-title {
+  color: var(--text-primary);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dashboard-title-font {
+  text-align: left;
+  font-size: 28px;
+}
+
+.dashboard-count-card {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  height: 173px;
+  justify-content: space-evenly;
+  gap: 44px;
+}
+
+.count-title {
+  color: var(--text-solid-gray);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.count-value-style {
+  color: var(--light-text-primary);
+  font-family: Lato;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 62.745% */
+}
+
+.dashboard-count-icon {
+  height: 80px;
+  width: 80px;
+  float: right;
+}
+
+.dashboard-card-custom-design {
+  height: 178px;
+  min-width: 323px;
+  max-width: 100%;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.col-margin-align {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tag-custom-design {
+  color: var(--light-primary-main);
+  margin-top: 15px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  border-radius: 13px;
+}
+
+.schedule-card-title {
+  color: #3a3541;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+}
+
+.td-content-align {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.90);
+  text-align: center;
+  font-size: 12px;
+}
+
+.dashboard-meeting-font {
+  font-size: 18px;
+}
+
+.meeting-sub-text {
+  color: var(--light-text-secondary);
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.14px;
+  margin-top: 0px !important;
+}
+
+.card-custom-title .ant-card-head {
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  .dashboard-count-card {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .count-value-style {
+    font-size: 30px;
+  }
+
+  .dashboard-title-font {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .dashboard-count-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .dashboard-card-custom-design {
+    min-width: 100%;
+  }
+}
