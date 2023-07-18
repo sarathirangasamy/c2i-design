@@ -29,7 +29,7 @@ export const Mentor: React.FC = () => {
     return (
 
         <div>
-            
+
 
             {/* //Mentor Card Ui// */}
 
@@ -39,7 +39,7 @@ export const Mentor: React.FC = () => {
                 className="card-custom-title mentor-card-margin-align"
             >
                 <Row gutter={16}>
-                    <Col xl={12} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
+                    <Col xl={{ span: 11, offset: 1 }} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
@@ -84,7 +84,7 @@ export const Mentor: React.FC = () => {
                         </Card>
                     </Col>
 
-                    <Col xl={12} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
+                    <Col xl={{ span: 11 }} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
@@ -127,17 +127,18 @@ export const Mentor: React.FC = () => {
                         </Card>
                     </Col>
 
-                    <Col xl={12} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
+                    <Col xl={{ span: 11, offset: 1 }} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
-                                <Col xl={6} lg={6} md={6} sm={24} xs={24} style={{ margin: 'auto' }}>
+                                <Col xl={5} lg={5} md={5} sm={24} xs={24} style={{ margin: 'auto' }}>
                                     <div className="">
                                         <img alt='' className='mentor-img-align' src="/images/icon/ellipse.png" />
                                     </div>
                                 </Col>
 
-                                <Col xl={14} lg={14} md={14} sm={24} xs={24}>
+
+                                <Col xl={15} lg={15} md={15} sm={24} xs={24}>
                                     <div className="card-headers">
                                         <h4 className='mentor-custom-style mentor-text-primary'>Sarathi</h4>
                                         <h6 className='mentor-custom-style mentor-text-secondary'>sarathi@blackflux.in</h6>
@@ -148,15 +149,15 @@ export const Mentor: React.FC = () => {
                                     </div>
                                 </Col>
 
-                                <Col xl={4} lg={4} md={4} sm={24} xs={24}>
+                                <Col xl={4} lg={4} md={4} sm={24} xs={24} >
                                     <div>
                                         <h5
                                             className='mentor-status-text'
                                             style={
-                                                { color: '#56CA00' }
+                                                { color: 'red' }
                                             }
                                         >
-                                            Active
+                                            InActive
                                         </h5>
 
                                         <span
@@ -166,11 +167,12 @@ export const Mentor: React.FC = () => {
                                         </span>
                                     </div>
                                 </Col>
+
                             </Row>
                         </Card>
                     </Col>
 
-                    <Col xl={12} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
+                    <Col xl={{ span: 11 }} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
