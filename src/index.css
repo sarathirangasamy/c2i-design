@@ -67,3 +67,16 @@ tr {
   margin: "0 16px";
   background-color: var(--white) !important;
 }
+.ant-menu-dark {
+  background: #00A7EA;  
+}
+
+.ant-layout .ant-layout-sider {
+  background: #00A7EA;
+} 
+
+.ant-layout .ant-layout-sider-trigger {
+  background: #00A7EA;
+  border-top: 2px solid rgba(149, 149, 149, 0.37);
+}
+
