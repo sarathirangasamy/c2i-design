@@ -26,6 +26,7 @@ code {
   --table-tr-hr-primary: #b0a6a6;
   --text-solid-blue: #0d5795;
   --white: #fff;
+  --card-bg: #E8F6FF;
 }
 
 .card-custom-title .ant-card-head-title {
