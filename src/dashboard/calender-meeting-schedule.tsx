@@ -1,7 +1,6 @@
-import { Card, Col, Divider, Row, Space, Tag } from "antd"
+import './style.css';
 import { CalendarOutlined } from '@ant-design/icons';
-
-import './style.css'
+import { Card, Col, Row, Space, Tag } from 'antd';
 
 export const CalenderMeetingSchedule: React.FC = () => {
 
@@ -9,7 +8,7 @@ export const CalenderMeetingSchedule: React.FC = () => {
         <div>
             <Row gutter={24}>
                 <Col offset={1} span={22} className="remove-col-padding">
-                    <Card title="Calender Schedule" className="card-custom-title" hoverable={true} bordered={true} >
+                    <Card title="Calender Schedule" className="card-custom-title calender-schedule-margin-align" hoverable={true} bordered={true} >
                         <table className="table dashboard-table" width="100%">
                             <thead>
                                 <tr>
@@ -31,7 +30,7 @@ export const CalenderMeetingSchedule: React.FC = () => {
                                     </td>
                                     <td className="td-content-align">a list of topics, action item, and activities you want to discuss during the meeting.</td>
                                     <td className="td-content-align"> <Space size={[0, 8]} wrap>
-                                        <Tag color="purple" className="tag-custom-design">Avg</Tag>
+                                        <Tag color="green" className="tag-custom-design tag-success">Avg</Tag>
                                     </Space></td>
                                 </tr>
 
@@ -48,7 +47,7 @@ export const CalenderMeetingSchedule: React.FC = () => {
                                     <td className="td-content-align">a list of topics, action item, and activities you want to discuss during the meeting.</td>
                                     <td className="td-content-align">
                                         <Space size={[0, 8]} wrap>
-                                            <Tag color="green" className="tag-custom-design">High</Tag>
+                                            <Tag color="red" className="tag-custom-design tag-danger">High</Tag>
                                         </Space></td>
                                 </tr>
                             </tbody>

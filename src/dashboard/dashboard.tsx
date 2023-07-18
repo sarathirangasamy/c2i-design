@@ -81,10 +81,6 @@ export const Dashboard: React.FC = () => {
             {/* //Calender Schedule card// */}
             <CalenderMeetingSchedule />
 
-
-
-            {/* //Mentor list// */}
-            {/* <Mentor /> */}
         </div>
     )
 }

@@ -40,7 +40,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
-  /* 62.745% */
+  float: left;
 }
 
 .remove-col-padding {
@@ -67,7 +67,6 @@
 }
 
 .tag-custom-design {
-  color: var(--light-primary-main);
   margin-top: 15px;
   text-align: center;
   font-family: Lato;
@@ -77,6 +76,14 @@
   line-height: 20px;
   letter-spacing: 0.14px;
   border-radius: 13px;
+}
+
+.tag-success {
+  color: var(--light-success-main);
+}
+
+.tag-danger {
+  color: var(--light-danger-main);
 }
 
 .schedule-card-title {
@@ -114,6 +121,11 @@
 .card-custom-title .ant-card-head {
   border-bottom: none;
   margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.calender-schedule-margin-align {
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
@@ -140,4 +152,9 @@
   .dashboard-card-custom-design {
     min-width: 100%;
   }
+
+  .dashboard-meeting-font {
+    font-size: 15px;
+  }
+  
 }
