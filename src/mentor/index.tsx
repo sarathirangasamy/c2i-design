@@ -3,10 +3,7 @@ import './styles.css';
 import { PlusCircleOutlined, SearchOutlined } from '@ant-design/icons';
 import { Button, Card, Col, Input, Row } from 'antd';
 
-
-
 export const Mentor: React.FC = () => {
-
 
     const extraButton = (
         <div className="head-box-content">

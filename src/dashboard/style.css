@@ -14,12 +14,12 @@
   font-size: 28px;
 }
 
-.dashboard-count-card {
+.dashboard-count-card-row {
   margin-left: 20px !important;
   margin-right: 20px !important;
-  height: 173px;
   justify-content: space-evenly;
   gap: 44px;
+  margin-bottom: 20px;
 }
 
 .count-title {
@@ -41,6 +41,11 @@
   font-weight: 500;
   line-height: 32px;
   /* 62.745% */
+}
+
+.remove-col-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .dashboard-count-icon {
@@ -86,7 +91,7 @@
 .td-content-align {
   padding-right: 10px;
   padding-left: 10px;
-  color: rgba(0, 0, 0, 0.90);
+  color: rgba(0, 0, 0, 0.9);
   text-align: center;
   font-size: 12px;
 }
@@ -107,12 +112,12 @@
 }
 
 .card-custom-title .ant-card-head {
-    border-bottom: none;
-    margin-top: 10px;
+  border-bottom: none;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
-  .dashboard-count-card {
+  .dashboard-count-card-row {
     justify-content: flex-start;
   }
 }

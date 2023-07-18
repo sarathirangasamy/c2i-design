@@ -1,7 +1,9 @@
 import './style.css';
-import { UserOutlined, VideoCameraOutlined, DashboardOutlined } from '@ant-design/icons';
+
+import { DashboardOutlined, VideoCameraOutlined } from '@ant-design/icons';
 import { Layout, Menu, Space } from 'antd';
 import React from 'react';
+
 import { Dashboard } from '../dashboard/dashboard';
 
 

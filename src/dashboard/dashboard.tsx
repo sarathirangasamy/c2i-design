@@ -1,14 +1,15 @@
-import { Mentor } from '../mentor';
+import { CalenderMeetingSchedule } from './calender-meeting-schedule';
 import './style.css';
+import { Card, Col, Row, Tag } from 'antd';
 
 export const Dashboard: React.FC = () => {
 
 
     return (
-        <div>
-            {/* <h1 className='dashboard-title dashboard-title-font'>Welcome to Connect2Investors!</h1> */}
+        <div style={{ height: '100%' }}>
+            <h1 className='dashboard-title dashboard-title-font'>Welcome to Connect2Investors!</h1>
 
-            {/* <Row className='dashboard-count-card' gutter={16}>
+            <Row className='dashboard-count-card-row' gutter={16}>
                 <Col className="col-margin-align" xl={7} lg={8} md={24} sm={24} xs={24}>
                     <Card hoverable={true} className='dashboard-card-custom-design'>
                         <div>
@@ -75,15 +76,15 @@ export const Dashboard: React.FC = () => {
                         </div>
                     </Card>
                 </Col>
-            </Row> */}
+            </Row>
 
             {/* //Calender Schedule card// */}
-            {/* <CalenderMeetingSchedule /> */}
+            <CalenderMeetingSchedule />
 
 
 
             {/* //Mentor list// */}
-            <Mentor />
+            {/* <Mentor /> */}
         </div>
     )
 }

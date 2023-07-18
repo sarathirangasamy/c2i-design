@@ -8,7 +8,7 @@ export const CalenderMeetingSchedule: React.FC = () => {
     return (
         <div>
             <Row gutter={24}>
-                <Col offset={1} span={22}>
+                <Col offset={1} span={22} className="remove-col-padding">
                     <Card title="Calender Schedule" className="card-custom-title" hoverable={true} bordered={true} >
                         <table className="table dashboard-table" width="100%">
                             <thead>

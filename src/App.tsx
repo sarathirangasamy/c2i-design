@@ -1,11 +1,12 @@
 import './App.css';
+
 import React from 'react';
-import SideNav from './layout/side-nav-1';
+import SideNav2 from './layout/side-nav-2';
 
 function App() {
   return (
     <div className="App">
-      <SideNav />
+      <SideNav2 />
     </div>
   );
 }
