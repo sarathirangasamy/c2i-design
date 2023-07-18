@@ -68,10 +68,10 @@ export const Mentor: React.FC = () => {
             >
                 <Row gutter={16}>
                     <Col xl={12} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
-                        <Card className="" hoverable={true}>
+                        <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
-                                <Col span={6} style={{margin:'auto'}}>
+                                <Col span={6} style={{ margin: 'auto' }}>
                                     <div className="">
                                         <img alt='' className='mentor-img-align' src="/images/icon/ellipse.png" />
                                     </div>
@@ -80,13 +80,12 @@ export const Mentor: React.FC = () => {
 
                                 <Col span={14}>
                                     <div className="card-headers">
-                                        <h4>{'Sarathi'}</h4>
-                                        <h6>{'sarathi@blackflux.in'}</h6>
-                                        <h6>
+                                        <h4 className='mentor-custom-style mentor-text-primary'>{'Sarathi'}</h4>
+                                        <h6 className='mentor-custom-style mentor-text-secondary'>{'sarathi@blackflux.in'}</h6>
+                                        <h6 className='mentor-custom-style mentor-text-secondary'>
                                             {'91'}
                                             {'6464656544'}
                                         </h6>
-
                                     </div>
                                 </Col>
 
@@ -95,10 +94,10 @@ export const Mentor: React.FC = () => {
                                         <h5
                                             className='mentor-status-text'
                                             style={
-                                                { color: 'green' }
+                                                { color: 'red' }
                                             }
                                         >
-                                            {'Active'}
+                                            {'InActive'}
                                         </h5>
 
                                         <span
@@ -114,10 +113,10 @@ export const Mentor: React.FC = () => {
                     </Col>
 
                     <Col xl={12} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
-                        <Card className="" hoverable={true}>
+                        <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
-                                <Col span={6} style={{margin:'auto'}}>
+                                <Col span={6} style={{ margin: 'auto' }}>
                                     <div className="">
                                         <img alt='' className='mentor-img-align' src="/images/icon/ellipse.png" />
                                     </div>
@@ -126,13 +125,12 @@ export const Mentor: React.FC = () => {
 
                                 <Col span={14}>
                                     <div className="card-headers">
-                                        <h4>{'Sarathi'}</h4>
-                                        <h6>{'sarathi@blackflux.in'}</h6>
-                                        <h6>
+                                        <h4 className='mentor-custom-style mentor-text-primary'>{'Sarathi'}</h4>
+                                        <h6 className='mentor-custom-style mentor-text-secondary'>{'sarathi@blackflux.in'}</h6>
+                                        <h6 className='mentor-custom-style mentor-text-secondary'>
                                             {'91'}
                                             {'6464656544'}
                                         </h6>
-
                                     </div>
                                 </Col>
 
@@ -141,7 +139,7 @@ export const Mentor: React.FC = () => {
                                         <h5
                                             className='mentor-status-text'
                                             style={
-                                                { color: 'green' }
+                                                { color: '#56CA00' }
                                             }
                                         >
                                             {'Active'}

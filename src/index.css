@@ -22,6 +22,7 @@ code {
   --light-primary-main: #9155fd;
   --table-td-hr-primary: #d9d9d9;
   --table-tr-hr-primary: #b0a6a6;
+  --text-solid-blue: #0d5795;
 }
 
 .card-custom-title .ant-card-head-title {
