@@ -10,8 +10,8 @@ export const Mentor: React.FC = () => {
             <div>
                 <Input
                     autoComplete="off"
-                    placeholder="Search by Name & Email"
-                    className="form-input search-input-organization"
+                    placeholder="Search by Title"
+                    className="customize-form-input search-input-organization"
                     suffix={<SearchOutlined />}
                 />
             </div>
@@ -19,7 +19,7 @@ export const Mentor: React.FC = () => {
             <Button
                 type="primary"
                 icon={<PlusCircleOutlined />}
-                className="head-create-btn"
+                className="mentor-create-btn"
                 block
             >
                 Create
@@ -55,13 +55,12 @@ export const Mentor: React.FC = () => {
                 </Col>
             </Row> */}
 
-
-
             {/* //Mentor Card Ui// */}
 
             <Card
-                title={'Mentor'}
+                title={'Mentor List'}
                 extra={extraButton}
+                className="card-custom-title mentor-card-margin-align"
             >
                 <Row gutter={16}>
                     <Col xl={12} lg={12} md={24} sm={24} xs={24} className="mentor-custom-col">
@@ -77,11 +76,11 @@ export const Mentor: React.FC = () => {
 
                                 <Col span={14}>
                                     <div className="card-headers">
-                                        <h4 className='mentor-custom-style mentor-text-primary'>{'Sarathi'}</h4>
-                                        <h6 className='mentor-custom-style mentor-text-secondary'>{'sarathi@blackflux.in'}</h6>
+                                        <h4 className='mentor-custom-style mentor-text-primary'>Sarathi</h4>
+                                        <h6 className='mentor-custom-style mentor-text-secondary'>sarathi@blackflux.in</h6>
                                         <h6 className='mentor-custom-style mentor-text-secondary'>
-                                            {'91'}
-                                            {'6464656544'}
+                                            91
+                                            6464656544
                                         </h6>
                                     </div>
                                 </Col>
@@ -94,7 +93,7 @@ export const Mentor: React.FC = () => {
                                                 { color: 'red' }
                                             }
                                         >
-                                            {'InActive'}
+                                            InActive
                                         </h5>
 
                                         <span
@@ -119,14 +118,13 @@ export const Mentor: React.FC = () => {
                                     </div>
                                 </Col>
 
-
                                 <Col span={14}>
                                     <div className="card-headers">
-                                        <h4 className='mentor-custom-style mentor-text-primary'>{'Sarathi'}</h4>
-                                        <h6 className='mentor-custom-style mentor-text-secondary'>{'sarathi@blackflux.in'}</h6>
+                                        <h4 className='mentor-custom-style mentor-text-primary'>Sarathi</h4>
+                                        <h6 className='mentor-custom-style mentor-text-secondary'>sarathi@blackflux.in</h6>
                                         <h6 className='mentor-custom-style mentor-text-secondary'>
-                                            {'91'}
-                                            {'6464656544'}
+                                            91
+                                            6464656544
                                         </h6>
                                     </div>
                                 </Col>
@@ -139,7 +137,7 @@ export const Mentor: React.FC = () => {
                                                 { color: '#56CA00' }
                                             }
                                         >
-                                            {'Active'}
+                                            Active
                                         </h5>
 
                                         <span
@@ -149,7 +147,6 @@ export const Mentor: React.FC = () => {
                                         </span>
                                     </div>
                                 </Col>
-
                             </Row>
                         </Card>
                     </Col>

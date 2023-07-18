@@ -15,7 +15,7 @@ code {
 :root {
   --text-primary: #3a3541;
   --text-secondary: #fefefe;
-  --btn-primary: #fefefe;
+  --btn-primary: #00a7ea;
   --text-solid-gray: #8e8e8e;
   --light-text-primary: rgba(58, 53, 65, 0.87);
   --light-text-secondary: rgba(58, 53, 65, 0.6);
@@ -23,6 +23,7 @@ code {
   --table-td-hr-primary: #d9d9d9;
   --table-tr-hr-primary: #b0a6a6;
   --text-solid-blue: #0d5795;
+  --white: #fff;
 }
 
 .card-custom-title .ant-card-head-title {
@@ -53,4 +54,13 @@ tr {
   padding: 20px !important;
   height: 2px;
   text-align: center;
+}
+
+.ant-layout-header {
+  border-bottom: 1px solid rgba(149, 149, 149, 0.37);
+}
+
+.ant-layout-content {
+  margin: "0 16px";
+  background-color: var(--white) !important;
 }
