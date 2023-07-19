@@ -41,14 +41,14 @@ export const Mentor: React.FC = () => {
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
-                                <Col xl={6} lg={6} md={4} sm={24} xs={24} style={{ margin: 'auto' }}>
+                                <Col span={6} style={{ margin: 'auto' }}>
                                     <div className="">
                                         <img alt='' className='mentor-img-align' src="/images/icon/ellipse.png" />
                                     </div>
                                 </Col>
 
 
-                                <Col xl={14} lg={14} md={14} sm={24} xs={24}>
+                                <Col span={14}>
                                     <div className="card-headers">
                                         <h4 className='mentor-custom-style mentor-text-primary'>Sarathi</h4>
                                         <h6 className='mentor-custom-style mentor-text-secondary'>sarathi@blackflux.in</h6>
@@ -59,7 +59,7 @@ export const Mentor: React.FC = () => {
                                     </div>
                                 </Col>
 
-                                <Col xl={4} lg={4} md={4} sm={24} xs={24} >
+                                <Col span={4}>
                                     <div>
                                         <h5
                                             className='mentor-status-text'
@@ -86,13 +86,13 @@ export const Mentor: React.FC = () => {
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
-                                <Col xl={6} lg={6} md={4} sm={24} xs={24} style={{ margin: 'auto' }}>
+                                <Col span={6} style={{ margin: 'auto' }}>
                                     <div className="">
                                         <img alt='' className='mentor-img-align' src="/images/icon/ellipse.png" />
                                     </div>
                                 </Col>
 
-                                <Col xl={14} lg={14} md={14} sm={24} xs={24}>
+                                <Col span={14}>
                                     <div className="card-headers">
                                         <h4 className='mentor-custom-style mentor-text-primary'>Sarathi</h4>
                                         <h6 className='mentor-custom-style mentor-text-secondary'>sarathi@blackflux.in</h6>
@@ -103,7 +103,7 @@ export const Mentor: React.FC = () => {
                                     </div>
                                 </Col>
 
-                                <Col xl={4} lg={4} md={4} sm={24} xs={24}>
+                                <Col span={4}>
                                     <div>
                                         <h5
                                             className='mentor-status-text'
@@ -129,14 +129,14 @@ export const Mentor: React.FC = () => {
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
-                                <Col xl={6} lg={6} md={4} sm={24} xs={24} style={{ margin: 'auto' }}>
+                                <Col span={6} style={{ margin: 'auto' }}>
                                     <div className="">
                                         <img alt='' className='mentor-img-align' src="/images/icon/ellipse.png" />
                                     </div>
                                 </Col>
 
 
-                                <Col xl={14} lg={14} md={14} sm={24} xs={24}>
+                                <Col span={14}>
                                     <div className="card-headers">
                                         <h4 className='mentor-custom-style mentor-text-primary'>Sarathi</h4>
                                         <h6 className='mentor-custom-style mentor-text-secondary'>sarathi@blackflux.in</h6>
@@ -147,7 +147,7 @@ export const Mentor: React.FC = () => {
                                     </div>
                                 </Col>
 
-                                <Col xl={4} lg={4} md={4} sm={24} xs={24} >
+                                <Col span={4}  >
                                     <div>
                                         <h5
                                             className='mentor-status-text'
@@ -174,13 +174,13 @@ export const Mentor: React.FC = () => {
                         <Card className="dashboard-cards" hoverable={true}>
                             <Row className="card-content" gutter={16}>
 
-                                <Col xl={6} lg={6} md={4} sm={24} xs={24} style={{ margin: 'auto' }}>
+                                <Col span={6} style={{ margin: 'auto' }}>
                                     <div className="">
                                         <img alt='' className='mentor-img-align' src="/images/icon/ellipse.png" />
                                     </div>
                                 </Col>
 
-                                <Col xl={14} lg={14} md={14} sm={24} xs={24}>
+                                <Col span={14}>
                                     <div className="card-headers">
                                         <h4 className='mentor-custom-style mentor-text-primary'>Sarathi</h4>
                                         <h6 className='mentor-custom-style mentor-text-secondary'>sarathi@blackflux.in</h6>
@@ -191,7 +191,7 @@ export const Mentor: React.FC = () => {
                                     </div>
                                 </Col>
 
-                                <Col xl={4} lg={4} md={4} sm={24} xs={24}>
+                                <Col span={4}>
                                     <div>
                                         <h5
                                             className='mentor-status-text'
@@ -214,7 +214,7 @@ export const Mentor: React.FC = () => {
                     </Col>
                 </Row>
             </Card>
-      
+
         </div>
 
     )
