@@ -4,7 +4,6 @@ import { Card, Col, Row, Tag } from 'antd';
 
 export const Dashboard: React.FC = () => {
 
-
     return (
         <div style={{ height: '100%' }}>
             <h1 className='dashboard-title dashboard-title-font'>Welcome to Connect2Investors!</h1>
