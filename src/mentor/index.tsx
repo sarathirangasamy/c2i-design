@@ -11,7 +11,7 @@ export const Mentor: React.FC = () => {
                     autoComplete="off"
                     placeholder="Search by Title"
                     className="customize-form-input search-input-organization"
-                    suffix={<SearchOutlined />}
+                    prefix={<SearchOutlined />}
                 />
             </div>
 
@@ -216,7 +216,7 @@ export const Mentor: React.FC = () => {
                     </Col>
                 </Row>
             </Card>
-
+      
         </div>
 
     )

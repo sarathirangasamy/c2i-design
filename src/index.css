@@ -63,6 +63,11 @@ tr {
   border-bottom: 1px solid rgba(149, 149, 149, 0.37);
 }
 
+.ant-menu-item-selected {
+  background: var(--white) !important;
+  color:#000 !important;
+}
+
 .ant-layout-content {
   margin: "0 16px";
   background-color: var(--white) !important;

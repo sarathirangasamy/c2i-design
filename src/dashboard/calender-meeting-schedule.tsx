@@ -20,13 +20,21 @@ export const CalenderMeetingSchedule: React.FC = () => {
                             <tbody>
                                 <tr>
                                     <td className="td-content-align">
-                                        <h3 className="dashboard-title" style={{ marginBottom: '0px', fontSize: '18px' }}> {'Call with Hilda'}</h3>
-                                        <p style={{ marginTop: '0px' }}>
-                                            <CalendarOutlined
-                                                className="meeting-sub-text"
-                                            />{' '}
-                                            {'21 Jul | 08:20-10.30'}
-                                        </p>
+                                        <Row className='schedule-name-row-style'>
+                                            <Col span={4}>
+                                                <img alt='' src="/images/Avatar.png"></img>
+                                            </Col>
+
+                                            <Col span={16}>
+                                                <h3 className="dashboard-title" style={{ marginBottom: '0px', fontSize: '18px' }}> {'Call with Hilda'}</h3>
+                                                <p style={{ marginTop: '0px' }}>
+                                                    <CalendarOutlined
+                                                        className="meeting-sub-text"
+                                                    />{' '}
+                                                    {'21 Jul | 08:20-10.30'}
+                                                </p>
+                                            </Col>
+                                        </Row>
                                     </td>
                                     <td className="td-content-align">a list of topics, action item, and activities you want to discuss during the meeting.</td>
                                     <td className="td-content-align"> <Space size={[0, 8]} wrap>
@@ -36,13 +44,23 @@ export const CalenderMeetingSchedule: React.FC = () => {
 
                                 <tr>
                                     <td className="td-content-align">
-                                        <h3 className="dashboard-title" style={{ marginBottom: '0px', fontSize: '18px' }}> {'Call with Hilda'}</h3>
-                                        <p style={{ marginTop: '0px' }}>
-                                            <CalendarOutlined
-                                                className="meeting-sub-text"
-                                            />{' '}
-                                            {'21 Jul | 08:20-10.30'}
-                                        </p>
+
+                                        <Row className='schedule-name-row-style'>
+                                            <Col span={4}>
+                                                <img alt='' src="/images/Avatar.png"></img>
+                                            </Col>
+
+                                            <Col span={16}>
+                                                <h3 className="dashboard-title " style={{ marginBottom: '0px', fontSize: '18px' }}> {'Call with Hilda'}</h3>
+                                                <p style={{ marginTop: '0px' }}>
+                                                    <CalendarOutlined
+                                                        className="meeting-sub-text"
+                                                    />{' '}
+                                                    {'21 Jul | 08:20-10.30'}
+                                                </p>
+                                            </Col>
+                                        </Row>
+
                                     </td>
                                     <td className="td-content-align">a list of topics, action item, and activities you want to discuss during the meeting.</td>
                                     <td className="td-content-align">
