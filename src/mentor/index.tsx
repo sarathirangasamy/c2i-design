@@ -29,8 +29,6 @@ export const Mentor: React.FC = () => {
     return (
 
         <div>
-
-
             {/* //Mentor Card Ui// */}
 
             <Card

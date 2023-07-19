@@ -2,7 +2,7 @@ import './style.css';
 
 import { DesktopOutlined, PieChartOutlined } from '@ant-design/icons';
 import { Layout, Menu, MenuProps, theme } from 'antd';
-import React, { useState } from 'react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import { Dashboard } from '../dashboard/dashboard';
 import { Mentor } from '../mentor';
@@ -30,14 +30,39 @@ const items: MenuItem[] = [
     getItem('Mentor', '2', <DesktopOutlined />),
 ];
 
-const SideNav2: React.FC = () => {
+function useWindowSize() {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+        function updateSize() {
+            setSize([window.innerWidth, window.innerHeight]);
+        }
+        window.addEventListener('resize', updateSize);
+        updateSize();
+        return () => window.removeEventListener('resize', updateSize);
+    }, []);
+    return size;
+}
 
+const SideNav2: React.FC = () => {
     const [collapsed, setCollapsed] = useState(false);
     const [menuValue, setMenuValue] = useState<string>('1');
 
     const {
         token: { colorBgContainer },
     } = theme.useToken();
+
+    const [width] = useWindowSize();
+
+    useEffect(() => {
+        if (width > 800) {
+            setCollapsed(false)
+            return
+        } else {
+            setCollapsed(true)
+            return
+        }
+    }, [width])
+
 
     return (
         <Layout style={{ minHeight: '100vh' }}>
@@ -56,7 +81,7 @@ const SideNav2: React.FC = () => {
 
                 <Menu theme="dark" onClick={(e) => setMenuValue(e?.key)} defaultSelectedKeys={['1']} mode="inline" items={items} />
             </Sider>
-            
+
             <Layout>
                 <Header style={{ padding: 0, background: colorBgContainer }} />
                 <Content style={{ margin: '0 16px' }}>
